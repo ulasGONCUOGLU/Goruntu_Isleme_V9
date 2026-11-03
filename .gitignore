@@ -211,6 +211,13 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# Cursor
+#  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
+#  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
+#  refer to https://docs.cursor.com/context/ignore-files
+.cursorignore
+.cursorindexingignore
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
@@ -218,3 +225,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+/dosyalar/*
+!/dosyalar/.gitkeep
+!/dosyalar/database.db

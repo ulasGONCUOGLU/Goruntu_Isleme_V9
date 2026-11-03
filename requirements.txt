@@ -1,0 +1,13 @@
+# Goruntu_Isleme_V9 — çalıştırma bağımlılıkları
+# Sürümler, V9'un test edildiği ortamdaki sürümlerdir (alt sınır olarak ">=").
+ultralytics>=8.3        # YOLO11 + izleme (torch otomatik gelir)
+supervision>=0.27       # PolygonZone, annotator'lar, Detections
+opencv-python>=4.9
+numpy>=1.26
+Pillow>=10.0
+matplotlib>=3.8         # Grafik sayfası
+
+# İsteğe bağlı (dışa aktarma / hızlandırma)
+# onnx onnxruntime       -> ONNX      (Ultralytics ilk dışa aktarmada kendisi kurabilir)
+# openvino               -> OpenVINO  (Intel CPU)
+# tensorrt               -> TensorRT  (NVIDIA GPU, CUDA kurulumu gerekir)
