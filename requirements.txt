@@ -6,6 +6,7 @@ opencv-python>=4.9
 numpy>=1.26
 Pillow>=10.0
 matplotlib>=3.8         # Grafik sayfası
+lap>=0.5.12
 
 # İsteğe bağlı (dışa aktarma / hızlandırma)
 # onnx onnxruntime       -> ONNX      (Ultralytics ilk dışa aktarmada kendisi kurabilir)
